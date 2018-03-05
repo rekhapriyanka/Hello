@@ -4,7 +4,7 @@ public class Hello {
         // Prints "Hello, World" to the terminal window.
         System.out.println("Hello, Teamcity");
         System.out.println("Automatically triggered");
-        System.out.println("To the github teamcity is added");
+        System.out.println("To the github teamcity is added2");
     }
 
 }
