@@ -6,6 +6,7 @@ public class Hello {
         System.out.println("Automatically triggered");
         System.out.println("To the github teamcity is added2");
         System.out.println("To the github teamcity is ngrok connection changing **");
+        System.out.println("*****************The end *******************");
     }
 
 }
