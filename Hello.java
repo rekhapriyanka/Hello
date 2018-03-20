@@ -7,6 +7,7 @@ public class Hello {
         System.out.println("To the github teamcity is added2");
         System.out.println("To the github connection changing teamcity failing no response");
         System.out.print("Integration and service");
+        System.out.print("Testing fo tag creation initiated.")
                
     }
 
