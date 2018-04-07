@@ -10,7 +10,7 @@ public class Hello {
         System.out.println("Testing fo tag creation initiated");
         System.out.println("testing");
         System.out.println("new integration and service new url added");
-        System.out.println("Started email notification")
+        System.out.println("Started email notification");
                
     }
 
