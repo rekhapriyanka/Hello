@@ -1,7 +1,7 @@
-impoert java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeUnit;
 public class Hello {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         // Prints "Hello, World" to the terminal window.
         System.out.println("Hello, Teamcity");
         System.out.println("Automatically triggered");
@@ -12,11 +12,13 @@ public class Hello {
         System.out.println("testing");
         System.out.println("new integration and service new url added");
         System.out.println("Started email notification");
-        for(i=0;i<20;i++){
+        for(int i=0;i<20;i++){
+          
           TimeUnit.SECONDS.sleep(10);
+          
           System.out.println(i);
         }
-               
+
     }
 
 }
