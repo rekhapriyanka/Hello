@@ -6,6 +6,6 @@ services:
 #    tty: true
     stdin_open: true
     volumes:
-    - ../docker-test:/java-test
+    - .:/java-test
     working_dir: /java-test
-    command: bash -c "java Hello.java && javac Hello"
+    #command: bash -c "java Hello.java && javac Hello"
