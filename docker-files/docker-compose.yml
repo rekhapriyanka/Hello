@@ -8,4 +8,4 @@ services:
     volumes:
     - .:/java-test
     working_dir: /java-test
-    command: bash -c "java Hello.java && javac Hello"
+    command: bash -c "javac Hello.java && java Hello"
