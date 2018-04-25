@@ -6,6 +6,6 @@ services:
 #    tty: true
     stdin_open: true
     volumes:
-    - .:/java-test
+    - ../:/java-test
     working_dir: /java-test
     command: bash -c "javac Hello.java && java Hello"
