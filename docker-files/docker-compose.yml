@@ -2,7 +2,6 @@ version: '3'
 services:
   web:
     container_name: alpine-testing
-    build: Dockerfile
-    image: test-alpine
+    image: java
 #    tty: true
     stdin_open: true
