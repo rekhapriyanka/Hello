@@ -1,4 +1,4 @@
-FROM java:lates
+FROM java:latest
 RUN mkdir -p /javatest
 COPY . /javatest
 WORKDIR /javatest
