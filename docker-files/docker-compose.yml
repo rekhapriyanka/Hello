@@ -9,4 +9,4 @@ services:
     volumes:
     - ../:/java-test
     working_dir: /java-test
-    command: bash -c "javac Hello.java && java Hello"
+    command: ["tail", "-f", "/dev/null"]
