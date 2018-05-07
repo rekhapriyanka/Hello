@@ -1,5 +1,5 @@
 FROM java:latest
-RUN mkdir -p /javatest
-COPY . /javatest
-WORKDIR /javatest
+RUN mkdir  /java-test
+COPY . /java-test
+WORKDIR /java-test
 CMD javac Hello.java ; java Hello
